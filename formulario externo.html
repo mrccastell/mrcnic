@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>(EM PROGRESSO) Formulário</title>
+  
+      <!--    <?!=Chamar("EstiloFormVendedor")  ?>  Incluir só no app sheet-->
+      
+  
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Criar Uma Conta</h2>
+      </div>
+
+      <form id="form" class="form"  method="POST" 
+      action="https://script.google.com/macros/s/AKfycbxGiakkY652XQv2_r2SX5XEOX5kaqqIsdtkIpCJN8bWii6iid2RBpioXK0_-PJBqb_VjA/exec" >
+        <div class="form-control">
+          <label for="username">Nome de usuário</label>
+          <input
+            name="username"
+            type="text"
+            id="username"
+            placeholder="Digite seu nome de usuário..."
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="Digite seu email.." />
+          
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Senha</label>
+          <input
+            name="password"
+            type="password"
+            id="password"
+            placeholder="Digite sua senha..."
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Confirmação de senha</label>
+          <input
+            name="password-confirmation"
+            type="password"
+            id="password-confirmation"
+            placeholder="Digite sua senha novamente..."
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+        
+      </form>
+    </div>
+
+ 
+     
+
+     <!-- <script src="./scripts.js"></script>  Não funcionou e envio do formulario apenas as validações--> 
+    
+
+
+
+
+  </body>
+   <!--fonte do formulario:  https://www.youtube.com/watch?v=3Ec9zY1C2og   -->
+
+   <!--conectar formulario a planilha do google: https://www.youtube.com/watch?v=XPwWaJ97120 , https://www.youtube.com/watch?v=w7SUjrKCdwE    -->
+
+     </html>
